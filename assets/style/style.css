@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans|Playfair+Display:700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.container {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 25px;
+    margin-top: 45%;
+}
+
+.topbar {
+    font-family: 'Montserrat', sans-serif;
+    color: #2E2E2E;
+    font-size: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+        color: black;
+        background-color: inherit;
+        text-align: right;
+        padding: 1em 2em;
+    }
+
+.hide-desktop {
+    display: none;
+}
+
+
+
